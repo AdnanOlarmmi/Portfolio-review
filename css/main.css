@@ -23,6 +23,36 @@ header {
   color: white;
 }
 
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  background-color: #3c3a39;
+  visibility: hidden;
+}
+
+.open {
+  visibility: visible;
+  position: fixed;
+}
+
+.close {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+.close i {
+  transform: scale(2);
+}
+
+nav ul a {
+  color: #faf0dd;
+}
+
 #logo {
   font-family: "Roboto", sans-serif;
   font-style: normal;
