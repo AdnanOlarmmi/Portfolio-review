@@ -1,6 +1,6 @@
 //nav code in plain js
-var nav = document.getElementById('nav');
-var navToggle = document.getElementById('nav-toggle');
+const nav = document.querySelector('nav')
+const navToggle = document.querySelector('.menu-bars')
 navToggle.addEventListener('click', function() {
     nav.classList.toggle('open');
     }
