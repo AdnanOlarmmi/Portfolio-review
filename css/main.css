@@ -355,3 +355,12 @@ li {
 .skills {
   list-style: inside url("../media/svg/circle.svg");
 }
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10%;
+}
