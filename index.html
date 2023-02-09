@@ -307,6 +307,57 @@
       </div>
     </main>
 
+    <footer class="about flex-column">
+      <h2 id="about__contactUs">CONTACT US</h2>
+      <p id="about__needHelp">
+        If you have an application you are interested in developing, a
+        feature that you need built or a project that needs coding. I’d love
+        to help with it
+      </p>
+      <form
+        action="https://formspree.io/f/mbjqvypj"
+        method="post"
+        class="flex-column"
+      >
+        <div class="input">
+          <input
+            type="text"
+            name="name"
+            placeholder="Text Input"
+            maxlength="30"
+            class="name"
+            required
+          />
+        </div>
+        <div class="input">
+          <input
+            type="email"
+            name="email"
+            placeholder="jeremy@gmail.com"
+            class="email"
+            required
+          />
+        </div>
+        <div class="textarea">
+          <textarea
+            name="comment"
+            placeholder="Enter text here"
+            class="text"
+            cols="30"
+            rows="10"
+            maxlength="500"
+            required
+          ></textarea>
+        </div>
+        <input
+          type="submit"
+          value="Get in touch"
+          class="button"
+          id="btm-btn"
+        />
+        <p class="errorMSG"></p>
+      </form>
+  </footer>
 
     <script
       src="https://kit.fontawesome.com/e966a3bd22.js"
