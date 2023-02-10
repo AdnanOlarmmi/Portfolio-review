@@ -1,42 +1,77 @@
+<a name="readme-top"></a>
 
+# 📗 Table of Contents
 
-# Portfolio Review
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
+- [👤 Author](#author)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
 
-This is a demo demo portfolio
+# 📖 Portfolio review <a name="about-project"></a>
 
-## Built With
+**Portfolio review** is a simple HTML portfolio review.
 
-- HTML
-- CSS
-- JAVASCRIPT
+## 🛠 Built With <a name="built-with"></a>
 
-## Additional Tools
+### Tech Stack <a name="tech-stack"></a>
 
-- WebHint
-- Stylelint
-- ESlint
-- Node Packet Manager
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">HTML5</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics">CSS3</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics">JavaScript</a></li>
+  </ul>
+</details>
 
-## Live Demo
+### Key Features <a name="key-features"></a>
 
-[Here](https://adnanolarmmi.github.io/Portfolio-review/) is the live demo.
+- **Responsive Design.**
+- **Pixel Perfect design.**
+- **Local Storage**
 
-## Getting Started
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-To get a local copy of this project up and running on your local machine follow the steps below.
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Here is the link to the live experience](https://adnanolarmmi.github.io/Portfolio-review/).
+
+> |     | Mobile version                      | Desktop version                      |     |
+> | --- | ----------------------------------- | ------------------------------------ | --- |
+> |     | ![Screenshot1](./mobile.gif) | ![Screenshot2](./desktop.gif) |
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-- Basic html, css and medium Javascript know how.
-- Git installation
-- A text editor 
-- A terminal
-- A web browser to view output e.g Google Chrome
-- An IDE e.g Visual studio code
+In order to run this project you need:
+
+- A web browser to view output e.g [Google Chrome](https://www.google.com/chrome/).
+- An IDE e.g [Visual studio code](https://code.visualstudio.com/).
+- [A terminal](https://code.visualstudio.com/docs/terminal/basics).
 
 ### Setup
 
-- Clone this repository or download the Zip folder:
+Clone this repository to your desired folder or download the Zip folder:
 
 ```
 git clone https://github.com/AdnanOlarmmi/Portfolio-review.git
@@ -46,66 +81,111 @@ git clone https://github.com/AdnanOlarmmi/Portfolio-review.git
 
 **``you@your-Pc-name:~$ cd Portfolio-review``**
 
-### Usage
+### Install
 
-- After Cloning this repo to your local machine
-- Open the `index.html` in your browser
+Install all dependencies:
 
-### Run Tests
-To track linter errors locally follow these steps:  
-
-Download all the dependencies run:
 ```
 npm install
 ```
-Track HTML linter errors run:
+
+### Usage
+
+To run the project, follow these instructions:
+
+- After Cloning this repo to your local machine.
+- To get it running on your default browser and local host, run:
+```
+npm start
+```
+
+### Run tests
+
+To run tests, run the following command:
+
+- Track HTML linter errors run:
 ```
 npx hint .
 ```
-Track CSS linter errors run:
+- Track CSS linter errors run:
 ```
 npx stylelint "**/*.{css,scss}"
 ```
-Track JavaScript linter errors run:
+- Track JavaScript linter errors run:
 ```
 npx eslint .
 ```
+- For unit testing, run:
+```
+npm test
+```
 
-### Deployment
+### Deployment <a name="deployment"></a>
 
-- I used GitHub Pages to deploy my website
-- For more information about publishing sources, see "[About github page](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites)"
+You can deploy this project using: GitHub Pages,
+- I used GitHub Pages to deploy my website.
+- For more information about publishing sources, see "[About GitHub pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites)".
 
-## Author
-### 👤 Author
-👤 **Is-haq Adnan Olamilekan**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 👤 Author <a name="author"></a>
+
+👤 **Is-haq, Adnan Olamilekan**
 
 - GitHub: [@AdnanOlarmmi](https://github.com/adnanolarmmi)
-- Twitter: [@AdnanIs71755510](https://twitter.com/AdnanIs71755510)
+- Twitter: [@AdnanIshaqOla](https://twitter.com/AdnanIshaqOla)
 - LinkedIn: [Adnan (Olamilekan) Is-haq](https://linkedin.com/in/adnan-is-haq-olamilekan)
 
-## Credits
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- The original design ideal [Microverse💕](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=23%3A10)
-- Project from [Microverse](https://bit.ly/MicroverseTN) html & css module
-- Images inspired by [Unsplash](unsplash.com)
+## 🔭 Future Features <a name="future-features"></a>
 
-## Contributing
+- [ ] **Implement button to switch sort type (ascending or descending).**
+- [ ] **Implement completed and not-completed routes for completed and non-completed tasks, respectively.**
+- [ ] **Add backend to store tasks.**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
-Feel free to check the [issues page](https://github.com/AdnanOlarmmi/Demo-Portfolio/issues).
 
-## Show your support
+Feel free to check the [issues page](../../issues/).
 
-Give a ⭐️ if you like this project and how we manage to build it!
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Acknowledgments
+## ⭐️ Show your support <a name="support"></a>
 
+
+Give a ⭐️ if you like this project and how I managed to build it!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+- The original design ideal from Microverse💕.
+- Project from [Microverse](https://bit.ly/MicroverseTN) HTML/CSS module.
 - Thanks to the Microverse team for the great curriculum.
 - Thanks to the Code Reviewer(s) for the insightful feedbacks.
 - A great thanks to My coding partner(s), morning session team, and standup team for their contributions.
 - Hat tip to anyone whose code was used.
 
-## 📝 License
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This project is [MIT](MIT.md) licensed
+## ❓ FAQ <a name="faq"></a>
+
+- **Can I fork and reuse the repository**
+
+  - Yes please, feel free.
+
+- **Can I improve the repository, and my changes will be accepted if they are good?**
+
+  - Yes please, nice ideas are welcome, please.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./MIT.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
